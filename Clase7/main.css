@@ -1,0 +1,115 @@
+
+#contenedor{
+
+    display: flex;
+
+    width: 100%;
+    height: 200px;
+
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    gap: 50px;
+
+}
+
+.botones{
+    
+    display: flex;
+
+    width: 100%;
+    height: 200px;
+
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    gap: 50px;
+}
+
+#poroto1{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+
+#poroto2{
+
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+
+
+#poroto3{
+
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+
+
+#poroto4{
+
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    
+}
+
+.almejas{
+    animation: rotar1 2000ms infinite ease-in-out;
+}
+
+@keyframes rotar1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+.contenedorCalc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 300px;
+
+    justify-content: center;
+    align-items: center;
+    
+
+    gap: 15px;
+
+    background-color: #ececec;
+
+}
+
+.botonesCalcs{
+    display: flex;
+    gap: 10px;  
+}
+
+
+
+
+
+
+
